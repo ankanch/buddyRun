@@ -33,3 +33,9 @@ You can change the source code as you wish.
 *  `Android SDK(API version > 15)` (构建安卓所必须)
 
 ##### 这份代码是当成参加我们学校一个比较水的比赛的，你可以随意修改本代码。
+
+---
+
+## Game Video
+
+[![Game Video](https://img.youtube.com/vi/9YWlwcrq7d4/0.jpg)](https://www.youtube.com/watch?v=9YWlwcrq7d4)
