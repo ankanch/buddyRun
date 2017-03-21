@@ -1,0 +1,28 @@
+ /*/
+            if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began && stateInfo.fullPathHash == runStateHash) //控制down那个人移动
+            {
+                Vector2 v2 = Input.GetTouch(0).position;
+                if (v2.y < Screen.height / 2)
+                {
+                    sr.material.color = Color.white;
+                    antor.SetBool(keypressHash, true);
+                    if (music_on)
+                    {
+                        audioSource.Play();
+                    }
+                }
+                if (Input.touchCount > 1)
+                {
+                    v2 = Input.GetTouch(1).position;
+                    if (v2.y < Screen.height / 2)
+                    {
+                        sr.material.color = Color.white;
+                        antor.SetBool(keypressHash, true);
+                        if (music_on)
+                        {
+                            audioSource.Play();
+                        }
+                    }
+                }
+            }
+            /*/
